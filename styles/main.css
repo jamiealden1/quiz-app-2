@@ -5,6 +5,14 @@
 	box-sizing:border-box;
 }
 
+body {
+	background: url(../images/futurama-bkgd.jpg) center center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 main{
 	width:1000px;
 	margin:auto;
@@ -37,11 +45,12 @@ h1, h2, h3, p{
         Section Layouts
 ------------------------------*/
 
-#intro, #playArea, #finalScore {
+#playArea, #finalScore {
 	width:600px;
 	min-height:550px;
 	margin:auto;
 	border:1px solid black;
+	background-color:white;
 }
 
 #playArea, #finalScore, #feedback  {
@@ -53,8 +62,16 @@ h1, h2, h3, p{
 ------------------------------*/
 #intro {
 	padding-top:50px;
+	width:600px;
+	min-height:550px;
+	margin:auto;
 }
 
+.logo {
+	width:600px;
+	height:100%;
+	border-radius:0;
+}
 /*----------------------------
         playArea Styles
 ------------------------------*/
