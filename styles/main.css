@@ -1,0 +1,89 @@
+/*----------------------------
+        Global Styles
+------------------------------*/
+*{
+	box-sizing:border-box;
+}
+
+main{
+	width:1000px;
+	margin:auto;
+	padding-top:100px;
+}
+
+form {
+	margin:0 30px 0 30px;
+}
+
+button {
+	display:block;
+	margin:auto;
+}
+
+img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius:50%;
+}
+
+h1, h2, h3, p{
+	text-align:center;
+}
+
+/*----------------------------
+        Section Layouts
+------------------------------*/
+
+#intro, #playArea, #finalScore {
+	width:600px;
+	min-height:550px;
+	margin:auto;
+	border:1px solid black;
+}
+
+#playArea, #finalScore, #feedback  {
+	display:none;
+}
+
+/*----------------------------
+        Intro Styles
+------------------------------*/
+#intro {
+	padding-top:50px;
+}
+
+/*----------------------------
+        playArea Styles
+------------------------------*/
+#playArea {
+	position:relative;
+}
+
+h3.currentScore {
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.currentScore, .quiz-header {
+	text-align:center;
+	background-color:lightgray;
+	padding:20px 0 20px 0;
+}
+
+/*----------------------------
+        Quiz Styles
+------------------------------*/
+.indQuestions {
+	padding:10px 0 20px 0;
+}
+
+/*----------------------------
+        Feedback Styles
+------------------------------*/
+#feedback p{
+	padding:10px 0 30px 0;
+}

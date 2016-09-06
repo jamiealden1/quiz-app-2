@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta description="This is a quiz about the animated show Futurama.">
+<link rel="stylesheet" type="text/css" href="styles/reset.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<head>
+	<title>Futurama Quiz</title>
+</head>
+<body>
+<main>
+
+<!-- Intro Screen -->
+	<section id="intro">
+		<h1>Futurama Quiz!</h1>
+		<h2>In Hypno-Vision</h2>
+		<img src="http://placekitten.com/300/300" alt="kitten"/>
+		<button id="start" href="#">Start Quiz!</button>
+	</section>
+
+	<!-- Play Area -->
+	<section id="playArea">
+		<div class="quiz-header">Futurama Quiz</div>
+
+		<!-- Quiz -->
+		<section id="quiz">
+			<img src="http://placekitten.com/200/200" alt="kitten"/>
+			<h2 class="counter">Question <span id="count">1</span> of 10</h2>
+			<div class="indQuestions">
+				<p id="question">Lorem ipsum dolor sit amet?</p>
+				<form id="futurama" action="">
+					<input type="radio" name="option" id="a" value="0"><label id="answerA">Answer a</label><br>
+					<input type="radio" name="option" id="b" value="1"><label id="answerB">Answer b</label><br>
+					<input type="radio" name="option" id="c" value="2"><label id="answerC">Answer c</label><br>
+					<input type="radio" name="option" id ="d" value="3"><label id="answerD">Answer d</label>
+					<button id="submit" href="#">Submit Answer</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- Feedback -->
+		<section id="feedback">
+			<img src="http://placekitten.com/200/200" alt="kitten"/>
+			<h2 id="result">Result</h2>
+			<p id="answer">Lorem ipsum dolor sit amet.</p>
+			<button id="next" href="#">Next Question</button>
+		</section>
+		<h3 class="currentScore">Score: <span id="score">0</span> of 10</h3>
+	</section>
+
+	<!-- Final Score Screen -->
+	<section id="finalScore">
+		<h2 id="final">Final Score Here</h2>
+		<button id="new" href="#">Play Again!</button>
+	</section>
+
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/quiz2.js"></script>
+</body>
+</html>
