@@ -174,7 +174,7 @@ h3.currentScore {
 ------------------------------*/
 #result {
 	font-size:30px;
-	padding-bottom:15px;
+	padding:65px 0 20px 0;
 	font-weight:600;
 	color:#139510;
 
@@ -191,7 +191,10 @@ h3.currentScore {
 	font-size:40px;
 	font-weight:600;
 	color: #e13222;
-	padding-top:15px;
+}
+
+#finalScore h2 {
+	padding-top:65px;
 }
 
 #finalScore img {
