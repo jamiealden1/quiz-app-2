@@ -54,6 +54,8 @@ button:hover{
 	transform: translateY(4px);
 }
 
+button:focus {outline:0;}
+
 img {
 	display:block;
 	width:200px;
